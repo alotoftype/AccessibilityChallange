@@ -1,2 +1,0 @@
-# AccessibilityChallange
-Created with CodeSandbox
