@@ -16,18 +16,18 @@
 
   <body>
     <noscript> You need to enable JavaScript to run this app. </noscript>
-    <div id="root"></div>
+    <div role="main" id="root"></div>
 
-    <form>
+    <form role="form">
       <div>
         <label>First Name</label>
-        <input placeholder="First Name" width="60px" />
+        <input aria-label="firstName" id="firstName" placeholder="First Name" width="60px" />
       </div>
       <div>
-        <div style="display: inline-block">Last Name</div>
-        <input placeholder="Last Name" width="60px" />
+        <label style="display: inline-block">Last Name</div>
+        <input aria-label="lastName" id="lastName" placeholder="Last Name" width="60px" />
       </div>
-      <div><label>Email</label> <input placeholder="Email" width="60px" /></div>
+      <div><label>Email</label> <input placeholder="Email" width="60px" aria-label="email" /></div>
       <div>
         <a
           onClick="alert('whoo form submitted')"

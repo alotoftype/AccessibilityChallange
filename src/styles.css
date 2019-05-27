@@ -1,4 +1,19 @@
+html, body {
+  background-color: #fff;
+  color: #000;
+  font-size: 62.5%;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+/* input::placeholder-shown,input[type=*]:-moz-placeholder,input[type=*]::-webkit-input-placeholder,
+input[type=*]:-ms-input-placeholder,input[type=*]:-moz-placeholder {
+  color: blue;
+} */
+form {
+  font-size: 1.6rem;
+}
+input::placeholder {
+  color: blue;
 }
